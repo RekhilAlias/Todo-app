@@ -48,7 +48,7 @@ todoStr(todoIn.value);
 
 const trashbtn = document.createElement('button')
 trashbtn.classList.add('trash')
-trashbtn.innerText = "- Del"
+trashbtn.innerHTML = "<i class='far fa-trash-alt'></i>"
 todoDiv.appendChild(trashbtn)
 todoList.appendChild(todoDiv)
 
